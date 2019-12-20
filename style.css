@@ -1,0 +1,62 @@
+
+body {
+    background-color: #ebe6e6;
+    margin: auto;
+    padding: 20px;
+}
+.cointainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  margin: 10px;
+  grid-gap: 20px;
+  
+  
+}
+
+
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6 {
+    padding: 5px;
+    width: 300px;
+    height: 220px;
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: aliceblue;
+    font-family: 'Nanum Gothic', sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(201, 141, 141, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.box-1:hover, .box-2:hover, .box-3:hover, .box-4:hover, .box-5:hover, .box-6:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.37);
+
+}
+
+
+#picture {
+    border-radius: 5%;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(201, 141, 141, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.658);
+}
+
+h2, h6 {
+    text-align: center;
+}
+
+.divider {
+    height: 40px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.icons {
+    box-shadow: 0 4px 8px 0 rgba(201, 141, 141, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.icons:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(201, 141, 141, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.418);
+}
+
